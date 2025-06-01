@@ -21,8 +21,7 @@ class MovieModel {
       posterPath: json['poster_path'],
     );
   }
-
-  // Fungsi untuk mengubah MovieModel ke Movie (entitas)
+  
   Movie toEntity() {
     return Movie(
       id: id,
